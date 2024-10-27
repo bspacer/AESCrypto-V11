@@ -9,6 +9,22 @@ AESCrypto-V11 is a secure text encryption tool designed to provide strong, passw
 - **Simple Interface:** Easy-to-use HTML interface for encrypting and decrypting messages securely.
 - **Open Source:** Released under the MIT license.
 
+## Usage
+
+AESCrypto-V11 is a browser-based tool. Simply clone the repository and open `index.html` in your browser to start using the tool. No installation is necessary, and it runs entirely offline.
+
+### Steps
+
+1. **Encryption**
+   - Enter the **message** you want to encrypt.
+   - Choose a **strong password** that you will remember.
+   - Click **Encrypt**. The encrypted output will appear in the text box.
+
+2. **Decryption**
+   - Paste the **encrypted message** in the text box.
+   - Enter the same **password** used for encryption.
+   - Click **Decrypt** to retrieve the original message.
+
 ### Security Notes
 
 - AESCrypto-V11 uses a strong key derivation process with PBKDF2, making it resistant to brute-force and rainbow table attacks.
