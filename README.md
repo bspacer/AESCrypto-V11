@@ -25,12 +25,6 @@ AESCrypto-V11 is a browser-based tool. Simply clone the repository and open `ind
    - Enter the same **password** used for encryption.
    - Click **Decrypt** to retrieve the original message.
 
-### Security Notes
-
-- AESCrypto-V11 uses a strong key derivation process with PBKDF2, making it resistant to brute-force and rainbow table attacks.
-- Always use a strong password to maximize security.
-- Ensure that you do not lose your password, as it is required for decryption.
-
 **Attribution:**  
 Based on AES Crypto by [Evgenii Neumerzhitski](https://aescrypto.com).
 
