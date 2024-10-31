@@ -1,9 +1,9 @@
 # AESCrypto-V11
 
-AESCrypto-V11 is a secure text encryption tool designed to provide strong, password-based encryption using Advanced Encryption Standard (AES) with enhanced security features. This project is based on the original [AES Crypto](https://aescrypto.com) by Evgenii Neumerzhitski, with improvements in key derivation and password security. 
+AESCrypto-V11 is a secure text encryption tool designed to provide strong, password-based encryption using Advanced Encryption Standard (AES) with enhanced security features. This project is based on the original [AES Crypto](https://aescrypto.com) by Evgenii Neumerzhitski, with improvements in key derivation and password security.  I have only worked on this web version, I am not making any mobile apps. 
 
 **Features:**
-- **PBKDF2 Key Derivation:** Utilizes PBKDF2 with SHA-256 hashing and 10,000 iterations for secure key derivation, making it resistant to brute-force attacks.
+- **PBKDF2 Key Derivation:** (Password-Based Key Derivation Function 2) Utilizes PBKDF2 with SHA-256 hashing and 10,000 iterations for secure key derivation, making it resistant to brute-force attacks.
 - **AES-256 Encryption:** Encrypts messages with AES-256 in CBC mode for high-level security.
 - **Random Salt Generation:** Each encryption uses a random salt and initialization vector (IV) for additional security, even if the same password is used multiple times.
 - **Simple Interface:** Easy-to-use HTML interface for encrypting and decrypting messages securely.
